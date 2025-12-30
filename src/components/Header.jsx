@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Use Link for navigation with React Router
 import './Header.css';
 
-const Header = () => {
+function Header ()  {
   return (
     <header className="header">
       

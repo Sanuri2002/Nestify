@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
+function Footer  ()  {
   return (
     <footer className="footer">
       <p>© 2025 Nestify. All rights reserved.</p>
