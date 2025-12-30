@@ -1,36 +1,23 @@
-import { Link, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom'; // Use Link for navigation with React Router
 import './Header.css';
 
-function Header() {
-  const location = useLocation();
-  const isSearchPage = location.pathname === '/search';
-  const isPropertiesPage = location.pathname === '/properties';
-
+const Header = () => {
   return (
-    <header className="site-header">
-      <div className="header-container">
-        <Link to="/" className="logo">
-          <h1>Nestify</h1>
-          <span className="tagline">Find your perfect property</span>
-        </Link>
-        
-        <nav className="main-nav">
-          <Link 
-            to="/search" 
-            className={`nav-link ${isSearchPage ? 'active' : ''}`}
-          >
-            <span>Search Properties</span>
-          </Link>
-          <Link 
-            to="/properties" 
-            className={`nav-link ${isPropertiesPage ? 'active' : ''}`}
-          >
-            <span>Properties</span>
-          </Link>
-        </nav>
-      </div>
+    <header className="header">
+      
+        <h1>Nestify</h1>
+      
+      
+      <nav>
+        <ul>
+          <li><Link to="/">Property Search</Link></li>
+          <li><Link to="/property-list">Properties</Link></li>
+          
+        </ul>
+      </nav>
     </header>
   );
-}
+};
 
 export default Header;

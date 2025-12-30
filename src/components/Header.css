@@ -1,65 +1,44 @@
-.site-header {
-  background-color: #1f1235;
-  color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.header-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f1235;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tagline {
-  font-size: 0.85rem;
-  color: #b8a9d6;
-  margin-top: 0.2rem;
-  font-weight: 400;
+/* Header title (if you still have h1 text) */
+.header h1 {
+  font-size: 1.5rem;
+  color: #47e4f0;
 }
 
-.main-nav {
+/* Navigation */
+.header nav ul {
+  list-style: none;
   display: flex;
-  gap: 2rem;
-  align-items: center;
+  gap: 1.5rem;
 }
 
-.nav-link {
-  color: white;
+.header nav ul li a {
   text-decoration: none;
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  font-size: 0.95rem;
+  color: #47e4f0;
+  font-weight: 500;
 }
 
-.nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.header nav ul li a:hover {
+  text-decoration: underline;
 }
 
-.nav-link.active {
-  background-color: #7f3dd2;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .header-container {
-    padding: 1rem;
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .header {
     flex-direction: column;
-    gap: 1rem;
+    align-items: flex-start;
   }
 
-  .tagline {
-    text-align: center;
-  }
-
-  .main-nav {
+  .header nav ul {
+    flex-direction: column;
     gap: 1rem;
   }
 }
