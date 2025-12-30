@@ -8,7 +8,18 @@
 			"tenure":"Freehold",
 			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
 			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
+			"picture":"/Images/prop1pic1small.webp",
+            "images": [
+				"/Images/prop1pic1small.webp",
+				"/Images/prop1pic2.avif",
+				"/Images/prop1pic3.avif",
+				"/Images/prop1pic4.avif",
+				"/Images/prop1pic5.avif",
+				"/Images/prop1pic6.avif",
+				"/Images/prop1pic7.avif",
+				"/Images/prop1pic8.avif"
+			],
+			"floorplan": "/Images/prop1floorplan.webp",
 			"url":"properties/prop1.html",
             "added": {
                 "month":"October",
@@ -24,7 +35,18 @@
 			"tenure":"Freehold",
 			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
 			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
+			"picture":"/Images/prop2pic1small.avif",
+            "images": [
+				"/Images/prop2pic1small.avif",
+				"/Images/prop2pic2.avif",
+				"/Images/prop2pic3.avif",
+				"/Images/prop2pic4.avif",
+				"/Images/prop2pic5.avif",
+				"/Images/prop2pic6.avif",
+				"/Images/prop2pic7.avif",
+				"/Images/prop2pic8.avif"
+			],
+			"floorplan": "/Images/prop2floorplan.webp",
 			"url":"properties/prop2.html",
             "added": {
                 "month":"September",
@@ -40,7 +62,18 @@
 			"tenure":"Freehold",
 			"description":"A stunning five bedroom detached Victorian family home offering spacious and versatile accommodation arranged over three floors. This impressive property features a grand entrance hall, three reception rooms including a formal dining room and a large living room with bay windows. The luxury kitchen/breakfast room includes integrated Miele appliances and granite worktops, with French doors opening onto a beautiful landscaped garden. The master bedroom suite includes a dressing room and en-suite bathroom. Further benefits include off-street parking for three cars, a detached garage, and proximity to excellent schools and transport links.",
 			"location":"Manor Road, Chislehurst BR7",
-			"picture":"images/prop3pic1small.jpg",
+			"picture":"/Images/prop3pic1small.avif",
+            "images": [
+				"/Images/prop3pic1small.avif",
+				"/Images/prop3pic2.avif",
+				"/Images/prop3pic3.avif",
+				"/Images/prop3pic4.avif",
+				"/Images/prop3pic5.avif",
+				"/Images/prop3pic6.avif",
+				"/Images/prop3pic7.avif",
+				"/Images/prop3pic8.avif"
+			],
+			"floorplan": "/Images/prop3floorplan.webp",
 			"url":"properties/prop3.html",
             "added": {
                 "month":"November",
@@ -56,7 +89,18 @@
 			"tenure":"Leasehold",
 			"description":"Modern one bedroom apartment located on the fourth floor of a prestigious development. This well-proportioned flat features an open-plan kitchen/living area with floor-to-ceiling windows offering abundant natural light and city views. The contemporary kitchen includes integrated appliances and sleek handleless units. The spacious double bedroom has built-in wardrobes, and the bathroom features a white three-piece suite with shower over bath. Additional benefits include secure entry system, lift access, allocated parking space, and communal gardens. Ideally situated just 0.3 miles from the station with excellent transport connections to Central London.",
 			"location":"Station Approach, West Wickham BR4",
-			"picture":"images/prop4pic1small.jpg",
+			"picture":"/Images/prop4pic1small.avif",
+            "images": [
+				"/Images/prop4pic1small.avif",
+				"/Images/prop4pic2.avif",
+				"/Images/prop4pic3.avif",
+				"/Images/prop4pic4.avif",
+				"/Images/prop4pic5.avif",
+				"/Images/prop4pic6.avif",
+				"/Images/prop4pic7.avif",
+				"/Images/prop4pic8.avif"
+			],
+			"floorplan": "/Images/prop4floorplan.avif",
 			"url":"properties/prop4.html",
             "added": {
                 "month":"January",
@@ -72,7 +116,18 @@
 			"tenure":"Freehold",
 			"description":"Beautifully extended four bedroom family home situated in a quiet residential area. The property offers versatile living space including a large through-lounge, separate dining room, and a magnificent 25ft kitchen/family room extension with bi-fold doors opening onto a landscaped south-facing garden. Upstairs comprises four good-sized bedrooms and a luxury family bathroom with separate shower cubicle. The master bedroom benefits from fitted wardrobes and an en-suite shower room. Additional features include a driveway providing parking for two vehicles, gas central heating, double glazing throughout, and a useful loft room for storage. Located within the catchment area of highly regarded primary and secondary schools.",
 			"location":"Hayes Lane, Bromley BR2",
-			"picture":"images/prop5pic1small.jpg",
+			"picture":"/Images/prop5pic1small.avif",
+            "images": [
+				"/Images/prop5pic1small.avif",
+				"/Images/prop5pic2.avif",
+				"/Images/prop5pic3.avif",
+				"/Images/prop5pic4.avif",
+				"/Images/prop5pic5.avif",
+				"/Images/prop5pic6.avif",
+				"/Images/prop5pic7.avif",
+				"/Images/prop5pic8.avif"
+			],
+			"floorplan": "/Images/prop5floorplan.webp",
 			"url":"properties/prop5.html",
             "added": {
                 "month":"March",
@@ -88,7 +143,18 @@
 			"tenure":"Leasehold",
 			"description":"Exceptional three bedroom penthouse apartment occupying the entire top floor of an exclusive gated development. This impressive property boasts a spectacular 30ft living/dining room with vaulted ceilings and Velux windows, creating a bright and airy space. The stylish kitchen features high-gloss units, Corian worktops, and integrated Bosch appliances. All three bedrooms are doubles, with the master featuring an en-suite shower room and access to a private roof terrace with panoramic views. The property further benefits from a contemporary family bathroom, video entry system, underground parking for two cars, and lift access. Located moments from local amenities and transport links.",
 			"location":"Widmore Road, Bromley BR1",
-			"picture":"images/prop6pic1small.jpg",
+			"picture":"/Images/prop6pic1small.avif",
+            "images": [
+				"/Images/prop6pic1small.avif",
+				"/Images/prop6pic2.avif",
+				"/Images/prop6pic3.avif",
+				"/Images/prop6pic4.avif",
+				"/Images/prop6pic5.avif",
+				"/Images/prop6pic6.avif",
+				"/Images/prop6pic7.avif",
+				"/Images/prop6pic8.avif"
+			],
+			"floorplan": "/Images/prop6floorplan.webp",
 			"url":"properties/prop6.html",
             "added": {
                 "month":"July",
@@ -104,7 +170,18 @@
 			"tenure":"Freehold",
 			"description":"Charming two bedroom Victorian terraced cottage brimming with character and period features. This delightful home offers a welcoming entrance hall, a cozy reception room with original fireplace and stripped wooden floorboards, and a modern fitted kitchen with space for dining. Upstairs, two well-proportioned bedrooms provide comfortable accommodation, complemented by a contemporary bathroom suite. The property retains many original features including picture rails, high ceilings, and sash windows. To the rear, a private low-maintenance courtyard garden provides a peaceful outdoor space. Conveniently located close to local shops, cafes, and within walking distance of the town center and railway station offering direct services to London.",
 			"location":"Park Road, Orpington BR6",
-			"picture":"images/prop7pic1small.jpg",
+			"picture":"/Images/prop7pic1small.avif",
+            "images": [
+				"/Images/prop7pic1small.avif",
+				"/Images/prop7pic2.avif",
+				"/Images/prop7pic3.avif",
+				"/Images/prop7pic4.avif",
+				"/Images/prop7pic5.avif",
+				"/Images/prop7pic6.avif",
+				"/Images/prop7pic7.avif",
+				"/Images/prop7pic8.avif"
+			],
+			"floorplan": "/Images/prop7floorplan.webp",
 			"url":"properties/prop7.html",
             "added": {
                 "month":"December",
