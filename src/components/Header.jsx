@@ -5,8 +5,12 @@ import './Header.css';
 function Header ()  {
   return (
     <header className="header">
+      <div className="logo-container">
+        <img src="/Images/NestifyLogo.png" alt="Logo" className="logo" />
+      
       
         <h1>Nestify</h1>
+      </div>
       
       
       <nav>

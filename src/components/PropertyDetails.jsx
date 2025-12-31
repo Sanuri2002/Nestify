@@ -57,7 +57,7 @@ const PropertyDetails = ({ onAddToFavourites }) => {
             className="btn btn-favourite"
             onClick={() => onAddToFavourites(property)}
           >
-            ❤️ Add to Favourites
+             Add to Favourites
           </button>
         </div>
       </div>

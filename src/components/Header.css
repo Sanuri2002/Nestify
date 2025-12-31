@@ -30,6 +30,17 @@
   text-decoration: underline;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .logo {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
 /* Responsive styles */
 @media (max-width: 1024px) {
   .header {
