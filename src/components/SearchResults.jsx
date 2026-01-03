@@ -39,7 +39,7 @@ const SearchResults = ({ results, hasSearched, onAddToFavourites, favourites }) 
                   className="result-image"
                 />
                 <span className="result-type-badge">{property.type}</span>
-                {isFavourite && <span className="result-favourite-badge">❤️</span>}
+                {isFavourite && <span className="result-favourite-badge"></span>}
               </div>
               
               <div className="result-content">
@@ -70,7 +70,7 @@ const SearchResults = ({ results, hasSearched, onAddToFavourites, favourites }) 
                     onClick={() => onAddToFavourites(property)}
                     disabled={isFavourite}
                   >
-                    {isFavourite ? '❤️ Favourited' : '🤍 Add to Favourites'}
+                    {isFavourite ? ' Favourited' : ' Add to Favourites'}
                   </button>
                 </div>
               </div>

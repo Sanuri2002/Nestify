@@ -27,7 +27,7 @@ const DraggablePropertyCard = ({ property, onAddToFavourites, isFavourite }) => 
           className="property-image"
         />
         <span className="property-type-badge">{property.type}</span>
-        {isFavourite && <span className="favourite-badge">❤️ Favourited</span>}
+        {isFavourite && <span className="favourite-badge"> Favourited</span>}
       </div>
       
       <div className="property-card-content">
@@ -58,7 +58,7 @@ const DraggablePropertyCard = ({ property, onAddToFavourites, isFavourite }) => 
             onClick={() => onAddToFavourites(property)}
             disabled={isFavourite}
           >
-            {isFavourite ? '❤️ In Favourites' : '🤍 Add to Favourites'}
+            {isFavourite ? ' In Favourites' : ' Add to Favourites'}
           </button>
         </div>
       </div>
