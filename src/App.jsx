@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SearchForm from './components/SearchForm';
+import SearchResults from './components/SearchResults';
 import FavouritesBar from './components/FavouritesBar';
 import PropertiesList from './components/PropertiesList';
 import PropertyDetails from './components/PropertyDetails';
@@ -112,50 +115,61 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <main className="main-content">
-          <Routes>
-            {/* Search Property Page - Route: / */}
-            <Route 
-              path="/" 
-              element={
-                <>
-                  <SearchForm onSearch={handleSearch} />
-                  <FavouritesBar 
+    <DndProvider backend={HTML5Backend}>
+      <Router>
+        <div className="App">
+          <Header />
+          <main className="main-content">
+            <Routes>
+              {/* Search Property Page - Route: / */}
+              <Route 
+                path="/" 
+                element={
+                  <>
+                    <SearchForm onSearch={handleSearch} />
+                    <SearchResults 
+                      results={searchResults}
+                      hasSearched={hasSearched}
+                      onAddToFavourites={handleAddToFavourites}
+                      favourites={favourites}
+                    />
+                    <FavouritesBar 
+                      favourites={favourites}
+                      onRemove={handleRemoveFromFavourites}
+                      onClear={handleClearFavourites}
+                    />
+                  </>
+                } 
+              />
+              
+              {/* Properties List Page - Route: /property-list */}
+              <Route 
+                path="/property-list" 
+                element={
+                  <PropertiesList 
                     favourites={favourites}
-                    onRemove={handleRemoveFromFavourites}
-                    onClear={handleClearFavourites}
+                    onAddToFavourites={handleAddToFavourites}
+                    onRemoveFromFavourites={handleRemoveFromFavourites}
+                    onClearFavourites={handleClearFavourites}
                   />
-                </>
-              } 
-            />
-            
-            {/* Properties List Page - Route: /property-list */}
-            <Route 
-              path="/property-list" 
-              element={
-                <PropertiesList 
-                  onAddToFavourites={handleAddToFavourites}
-                />
-              } 
-            />
+                } 
+              />
 
-            {/* Property Details Page - Route: /property/:id */}
-            <Route 
-              path="/property/:id" 
-              element={
-                <PropertyDetails 
-                  onAddToFavourites={handleAddToFavourites}
-                />
-              } 
-            />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+              {/* Property Details Page - Route: /property/:id */}
+              <Route 
+                path="/property/:id" 
+                element={
+                  <PropertyDetails 
+                    onAddToFavourites={handleAddToFavourites}
+                  />
+                } 
+              />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </DndProvider>
   );
 }
 
